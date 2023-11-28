@@ -1,0 +1,146 @@
+body {
+  background-color: #171717;
+}
+
+.hero {
+  border: 3px solid red;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/hero-img.png);
+  height: 75vh;
+  align-self: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: start;
+  justify-content: end;
+}
+
+#header {
+  border: 3px solid orange;
+  width: 90%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+#button {
+}
+
+.play {
+  border: 3px solid blue;
+  display: flex;
+  flex-direction: row;
+  height: 25vh;
+  justify-content: space-evenly;
+}
+
+#play-modes {
+  border: 3px solid greenyellow;
+  display: flex;
+  width: 25vh;
+  height: 100%;
+  align-items: end;
+  justify-content: center;
+  text-align: center;
+}
+
+#divider {
+  margin-top: 5%;
+  border-bottom: 3px solid white;
+}
+
+.game-modes {
+  border: 3px solid red;
+}
+
+#game-header {
+  border: 3px solid orange;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#game-modes-img {
+  border: 3px solid white;
+  height: 20px;
+  width: 20px;
+}
+
+#modes-r1 {
+  border: 3px solid yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+#bullet1 {
+  border: 3px solid red;
+}
+
+#bullet2 {
+  border: 3px solid yellow;
+}
+
+#blitz1 {
+  border: 3px solid orange;
+}
+
+#blitz2 {
+  border: 3px solid orangered;
+}
+
+#blitz3 {
+  border: 3px solid pink;
+}
+
+#blitz4 {
+  border: 3px solid magenta;
+}
+
+#modes-r2 {
+  border: 3px solid purple;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+#rapid1 {
+  border: 3px solid lightblue;
+}
+
+#rapid2 {
+  border: 3px solid blue;
+}
+
+#rapid3 {
+  border: 3px solid green;
+}
+
+#classical1 {
+  border: 3px solid lightgreen;
+}
+
+#classical2 {
+  border: 3px solid plum;
+}
+
+#custom {
+  border: 3px solid violet;
+}
+
+p {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
