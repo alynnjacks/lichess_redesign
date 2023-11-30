@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Lichess | PLAY NOW!</title>
+    <link rel="icon" type="image/x-icon" href="/images/lichess-favicon.png">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./stylesheet/style.css" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">    <title>Document</title>
   </head>
   <body>
     <div class="hero">
       <div id="header">
-        <h1>Lichess has a new look!</h1>
-        <button>PLAY NOW</button>
+        <h1>Lichess has<br>a new look!</h1>
+        <a class="button" href="https://www.figma.com/proto/QOSLeKoFKXen6bvHEV3Rco/Final-Project-Lichess?type=design&node-id=225-923&t=9XiyzECwPEtdSOA4-1&scaling=scale-down&page-id=6%3A8&starting-point-node-id=225%3A923&mode=design" target="_new"><button>PLAY NOW</button></a>
       </div>
     </div>
+      <div><p class="scroll-blurb">SCROLL DOWN TO VIEW GAME OPTIONS</p></div>
+      <a href="#game-header"><div class="arrow"><img src="images/arrow.png" /></div></a>
     <div class="play">
       <div id="play-modes">
         <div id="quick">
           <img src="./images/quick.png" />
-          <h3>Quick Play</h3>
+          <h3>Quick<br>Play</h3>
         </div>
       </div>
       <div id="play-modes">
         <div id="friend">
           <img src="./images/friend.png" />
-          <h3>Play with a friend</h3>
+          <h3>Play with<br>a friend</h3>
         </div>
       </div>
       <div id="play-modes">
@@ -35,7 +43,7 @@
       <div id="play-modes">
         <div id="puzzle">
           <img src="./images/puzzle.png" />
-          <h3>Puzzles</h3>
+          <h3>Puzzle Games</h3>
         </div>
       </div>
       <div id="play-modes">
@@ -51,57 +59,67 @@
         <h1>Game Modes</h1>
           <img id="game-modes-img" src="./images/Vector.png" />
       </div>
+
+
+<!--Begin "Game Modes" HTML-->
       <div id="modes-r1">
-        <div id="bullet1">
+        <div id="bullet">
           <h3>1 + 0</h3>
-          <p>Bullet</p>
+          <p class="game-opt">Bullet</p>
         </div>
-        <div id="bullet2">
+        <div id="bullet">
           <h3>2 + 1</h3>
-          <p>Bullet</p>
+          <p class="game-opt">Bullet</p>
         </div>
-        <div id="blitz1">
+
+        <div id="blitz-1">
           <h3>3 + 0</h3>
-          <p>Blitz</p>
+          <p class="game-opt">Blitz</p>
         </div>
-        <div id="blitz2">
+        <div id="blitz-1">
           <h3>3 + 2</h3>
-          <p>Blitz</p>
+          <p class="game-opt">Blitz</p>
         </div>
-        <div id="blitz3">
+
+        <div id="blitz-2">
           <h3>5 + 0</h3>
-          <p>Blitz</p>
+          <p class="game-opt">Blitz</p>
         </div>
-        <div id="blitz4">
+        <div id="blitz-2">
           <h3>5 + 3</h3>
-          <p>Blitz</p>
+          <p class="game-opt">Blitz</p>
         </div>
       </div>
+
+<!--Second div grouping-->
       <div id="modes-r2">
         <div id="rapid1">
           <h3>10 + 0</h3>
-          <p>Rapid</p>
+          <p class="game-opt">Rapid</p>
+        </div>
+        <div id="rapid1">
+          <h3>10 + 5</h3>
+          <p class="game-opt">Rapid</p>
+        </div>
+
+        <div id="rapid2">
+          <h3>15 + 10</h3>
+          <p class="game-opt">Rapid</p>
         </div>
         <div id="rapid2">
-          <h3>10 + 5</h3>
-          <p>Rapid</p>
+          <h3>30 + 0</h3>
+          <p class="game-opt">Classical</p>
         </div>
-        <div id="rapid3">
-          <h3>15 + 10</h3>
-          <p>Rapid</p>
+        
+        <div id="classical1">
+          <h3>30 + 20</h3>
+          <p class="game-opt">Classical</p>
         </div>
         <div id="classical1">
-          <h3>30 + 0</h3>
-          <p>Classical</p>
-        </div>
-        <div id="classical2">
-          <h3>30 + 20</h3>
-          <p>Classical</p>
-        </div>
-        <div id="custom">
-          <p>Custom</p>
+          <p class="game-opt">Custom</p>
         </div>
       </div>
+
     </div>
     </div>
   </body>
