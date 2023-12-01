@@ -378,9 +378,9 @@ h1 {
 }
 
 /* tablet viewport CSS */
-@media only screen and (min-width:599px) and (max-width:768px){
+/* @media only screen and (min-width:599px) and (max-width:768px){
 html{
   background-color:red;
 }
 
-}
+} */
